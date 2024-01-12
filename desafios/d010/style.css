@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #485C49;
+    text-align: justify;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #4AC250, #2A332A);
+    margin: auto;
+}
+
+header > p {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+}
+
+header > nav {
+    text-align: left;
+    padding: 9px 9px 9px 0px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: #4AC250;
+    color: #2D332C;
+    text-decoration: none;
+}
+
+p {
+    text-indent: 20px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    font-family: android, "sans-serif";
+    color: #3A5236;
+}
+
+h3 {
+    font-family: android, "sans-serif";
+    color: #3A5236;
+    border-radius: 5px;
+    padding: 5px;
+    background-image: linear-gradient(to right, #77b86cdc, white);
+}
+
+a {
+    text-decoration: none;
+    color: #2A332A;
+    font-weight: bold;
+}
+
+p > a::after {
+    content: '\1F517';
+}
+
+footer > p > a::after {
+    content: '';
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+span {
+    color: #4AC250;
+    font-weight: bold;
+}
+
+iframe {
+
+    width: 100%;
+    max-height: 100%;
+}
+
+
+aside > h4 {
+    margin: 0px;
+    background-color: #2A332A;
+    padding: 10px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside {
+    background-color: #42b83083;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+ul {
+    display: inline-block;
+    padding-right: 150px;
+    list-style-type: none;
+}
+
+li::before {
+    content: '\2714';
+    margin: 5px;
+}
+
+aside > p {
+    padding: 5px;
+}
+
+abbr {
+    text-decoration: underline;
+}
+
+footer {
+    margin: 10px 0px 0px 0px;
+    background-color: #4AC250;
+    padding: 5px 0px 5px 0px;
+}
+
+footer > p {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
