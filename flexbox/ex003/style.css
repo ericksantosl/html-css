@@ -26,6 +26,31 @@ div.header h1, p {
     margin: 0px;
 }
 
+input#itxt {
+    border: 2px solid rgba(138, 37, 0, 0.842);
+    border-radius: 20px;
+    height: 35px;
+    width: 250%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+form {
+    width: 350px;
+}
+
+div#pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span.material-symbols-outlined {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(119, 34, 0);
+}
+
 main {
     max-width: 500px;
     margin: auto;
@@ -81,7 +106,7 @@ div.texto {
 }
 
 hr {
-    width: 800px;
+    width: 60%;
     border: 0;
-    border-top: 1px solid #eee;
+    border-top: 0.01em solid #eee;
 }
